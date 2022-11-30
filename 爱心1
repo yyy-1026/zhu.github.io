@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>爱心1</title>
+<style>
+html,body{
+height:100%;
+padding:0;
+margin:0;
+background:#000;
+}
+canvas{
+position:absolute;
+width:100%;
+height:100%;
+}
+</style>
+</head>
+<body>
+<canvas id="pinkboard"></canvas>
+<script>
+var settings={particles:{
+length:500,
+duration:2,
+velocityt:100,
+effect:-0.75,
+size:30,
+},
+};
